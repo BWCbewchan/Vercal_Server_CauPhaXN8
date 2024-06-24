@@ -25,4 +25,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm install start-server-and-test --save-dev
-    - run: npx start-server-and-test 'node server.js' http://localhost:3000 'npm test'
+    - run: npx start-server-and-test 'node server.js' http://localhost:8080 'npm test' --timeout 300000 # 5 minutes
