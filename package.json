@@ -7,8 +7,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "react-scripts build",
-    "vercel-build": "echo hello"
+    "vercel-build": "echo hello",
+    "build": "[my-framework] build --output public"
   },
   "author": "Musa Mthimunye",
   "license": "ISC",
@@ -22,8 +22,5 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^6.3.6",
     "request": "^2.88.2"
-  },
-  "devDependencies": {
-    "react-scripts": "^5.0.1"
   }
 }
