@@ -7,8 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-build": "echo hello",
-    "build": "[my-framework] build --output public"
+    "vercel-build": "echo hello"
   },
   "author": "Musa Mthimunye",
   "license": "ISC",
