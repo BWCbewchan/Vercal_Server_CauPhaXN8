@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm install && npm run build"
+    "build": "react-scripts build",
+    "vercel-build": "echo hello"
   },
   "author": "Musa Mthimunye",
   "license": "ISC",
